@@ -47,6 +47,7 @@
 #include "constants/trainers.h"
 #include "constants/trainer_hill.h"
 #include "done_button.h"
+#include "draft_setup.h"
 
 enum
 {
@@ -970,12 +971,91 @@ static void CB2_GiveStarter(void)
     u16 starterMon;
 
     *GetVarPointer(VAR_STARTER_MON) = gSpecialVar_Result;
-    starterMon = GetStarterPokemon(gSpecialVar_Result);
-    ScriptGiveMon(starterMon, 5, ITEM_NONE, 0, 0, 0);
+    // starterMon = GetStarterPokemon(gSpecialVar_Result);
+    // ScriptGiveMon(starterMon, 5, ITEM_NONE, 0, 0, 0);
+    GiveDraftMons();
     ResetTasks();
     PlayBattleBGM();
     SetMainCallback2(CB2_StartFirstBattle);
     BattleTransition_Start(B_TRANSITION_BLUR);
+}
+
+static void GiveDraftMons() {
+    // char ***data;
+    // char buffer[100];
+    // char *field;
+    // int row = 0;
+    // int col = 0;
+    // int max_cols = 0;
+    // int i;
+    // int j;
+    // int num_rows;
+    // int num_cols;
+
+    // FILE *file = fopen("./draft.csv", "r");
+    // if(file == NULL) {
+    //     return;
+    // }
+    
+    // while(fgets(buffer, sizeof(buffer), file)) {
+    //     col = 0;
+    //     field = strtok(buffer, ",");
+    //     while (field != NULL && col < 100) {
+    //         (*data)[row * 100 + 1] = strdup(field);
+    //         field = strtok(NULL, ",");
+    //         col++;
+    //     }
+    //     if (col > max_cols) {
+    //         max_cols = col;
+    //     }
+    //     row++;
+    // }
+
+    // num_rows = row;
+    // num_cols = max_cols;
+
+    // fclose(file);
+    
+    // for (i = 0; i < num_rows; i++) {
+    //     for(j = 0; j < num_cols; j++) {
+    //         printf("%s,", data[i * 100 + j]);
+    //     }
+    //     printf("\n");
+    // }
+
+    // for (i = 0; i < num_rows; i++) {
+    //     for (j = 0; j < num_cols; j++) {
+    //         free(data[i * 100 + j]);
+    //     }
+    // }
+
+    // free(data);
+
+    ScriptGiveMon(SPECIES_TREECKO, 10, 0, 0, 0, 0);
+    ScriptGiveBoxMon(SPECIES_LOTAD, 10, 0, 0, 0, 0);
+    ScriptGiveBoxMon(SPECIES_TAILLOW, 10, 0, 0, 0, 0);
+    ScriptGiveBoxMon(SPECIES_MR_MIME, 10, 0, 0, 0, 0);
+    ScriptGiveBoxMon(SPECIES_LAPRAS, 10, 0, 0, 0, 0);
+    ScriptGiveBoxMon(SPECIES_MAREEP, 10, 0, 0, 0, 0);
+    ScriptGiveBoxMon(SPECIES_MAKUHITA, 10, 0, 0, 0, 0);
+    ScriptGiveBoxMon(SPECIES_PINSIR, 10, 0, 0, 0, 0);
+    ScriptGiveBoxMon(SPECIES_TRAPINCH, 10, 0, 0, 0, 0);
+    ScriptGiveBoxMon(SPECIES_SWABLU, 10, 0, 0, 0, 0);
+    ScriptGiveBoxMon(SPECIES_VOLTORB, 10, 0, 0, 0, 0);
+    ScriptGiveBoxMon(SPECIES_WINGULL, 10, 0, 0, 0, 0);
+    ScriptGiveBoxMon(SPECIES_HOUNDOUR, 10, 0, 0, 0, 0);
+    ScriptGiveBoxMon(SPECIES_SABLEYE, 10, 0, 0, 0, 0);
+    ScriptGiveBoxMon(SPECIES_DUSKULL, 10, 0, 0, 0, 0);
+    ScriptGiveBoxMon(SPECIES_VULPIX, 10, 0, 0, 0, 0);
+    ScriptGiveBoxMon(SPECIES_PSYDUCK, 10, 0, 0, 0, 0);
+    ScriptGiveBoxMon(SPECIES_CUBONE, 10, 0, 0, 0, 0);
+    ScriptGiveBoxMon(SPECIES_SANDSLASH, 10, 0, 0, 0, 0);
+    ScriptGiveBoxMon(SPECIES_CATERPIE, 7, 0, 0, 0, 0);
+    ScriptGiveBoxMon(SPECIES_CASTFORM, 10, 0, 0, 0, 0);
+    ScriptGiveBoxMon(SPECIES_SHEDINJA, 10, 0, 0, 0, 0);
+    ScriptGiveBoxMon(SPECIES_ZIGZAGOON, 10, 0, 0, 0, 0);
+    ScriptGiveBoxMon(SPECIES_SURSKIT, 10, 0, 0, 0, 0);
+    ScriptGiveBoxMon(SPECIES_NATU, 10, 0, 0, 0, 0);
 }
 
 static void CB2_StartFirstBattle(void)
