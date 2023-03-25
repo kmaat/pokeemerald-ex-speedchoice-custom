@@ -10,6 +10,7 @@
 #include "battle_z_move.h"
 #include "bg.h"
 #include "data.h"
+#include "debug.h"
 #include "item_use.h"
 #include "link.h"
 #include "main.h"
@@ -1609,7 +1610,7 @@ static void PlayerPartnerHandleExpUpdate(void)
 {
     u8 monId = gBattleResources->bufferA[gActiveBattler][1];
 
-    if (GetMonData(&gPlayerParty[monId], MON_DATA_LEVEL) >= MAX_LEVEL)
+    if (GetMonData(&gPlayerParty[monId], MON_DATA_LEVEL) >= GetCurrentPartyLevelCap())
     {
         PlayerPartnerBufferExecCompleted();
     }
