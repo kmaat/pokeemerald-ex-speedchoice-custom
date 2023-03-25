@@ -3,6 +3,8 @@
 
 void Debug_ShowMainMenu(void);
 
+u8 GetCurrentPartyLevelCap(void);
+
 extern int gDebugSystemEnabled;
 
 void Debug_ShowMainMenu(void);
