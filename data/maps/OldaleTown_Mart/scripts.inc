@@ -30,6 +30,8 @@ OldaleTownSpeedchoice_Mart_Items1:: @ 8152F9C
 	.2byte ITEM_PARALYZE_HEAL
 	.2byte ITEM_AWAKENING
 	.2byte ITEM_REPEL
+	.2byte ITEM_LUM_BERRY
+	.2byte ITEM_SITRUS_BERRY
 	.2byte ITEM_NONE
 	release
 	end
@@ -47,6 +49,8 @@ OldaleTown_Mart_Pokemart_Expanded: @ 81FC27C
 	.2byte ITEM_ANTIDOTE
 	.2byte ITEM_PARALYZE_HEAL
 	.2byte ITEM_AWAKENING
+	.2byte ITEM_LUM_BERRY
+	.2byte ITEM_SITRUS_BERRY
 	.2byte ITEM_NONE
 	release
 	end
@@ -59,6 +63,8 @@ OldaleTownSpeedchoice_Mart_Items2:: @ 8152FB8
 	.2byte ITEM_PARALYZE_HEAL
 	.2byte ITEM_AWAKENING
 	.2byte ITEM_REPEL
+	.2byte ITEM_LUM_BERRY
+	.2byte ITEM_SITRUS_BERRY
 	.2byte ITEM_NONE
 	release
 	end
