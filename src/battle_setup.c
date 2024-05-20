@@ -1031,31 +1031,28 @@ static void GiveDraftMons() {
 
     // free(data);
 
-    ScriptGiveMon(SPECIES_TREECKO, 10, 0, 0, 0, 0);
-    ScriptGiveBoxMon(SPECIES_LOTAD, 10, 0, 0, 0, 0);
+    ScriptGiveMon(SPECIES_BULBASAUR, 10, 0, 0, 0, 0);
+    ScriptGiveBoxMon(SPECIES_AERODACTYL, 10, 0, 0, 0, 0);
+    ScriptGiveBoxMon(SPECIES_HERACROSS, 10, 0, 0, 0, 0);
+    ScriptGiveBoxMon(SPECIES_SHARPEDO, 10, 0, 0, 0, 0);
+    ScriptGiveBoxMon(SPECIES_BELDUM, 10, 0, 0, 0, 0);
     ScriptGiveBoxMon(SPECIES_TAILLOW, 10, 0, 0, 0, 0);
-    ScriptGiveBoxMon(SPECIES_MR_MIME, 10, 0, 0, 0, 0);
-    ScriptGiveBoxMon(SPECIES_LAPRAS, 10, 0, 0, 0, 0);
-    ScriptGiveBoxMon(SPECIES_MAREEP, 10, 0, 0, 0, 0);
-    ScriptGiveBoxMon(SPECIES_MAKUHITA, 10, 0, 0, 0, 0);
-    ScriptGiveBoxMon(SPECIES_PINSIR, 10, 0, 0, 0, 0);
+    ScriptGiveBoxMon(SPECIES_PIKACHU, 10, 0, 0, 0, 0);
     ScriptGiveBoxMon(SPECIES_TRAPINCH, 10, 0, 0, 0, 0);
+    ScriptGiveBoxMon(SPECIES_HORSEA, 10, 0, 0, 0, 0);
+    ScriptGiveBoxMon(SPECIES_SNORLAX, 10, 0, 0, 0, 0);
     ScriptGiveBoxMon(SPECIES_SWABLU, 10, 0, 0, 0, 0);
-    ScriptGiveBoxMon(SPECIES_VOLTORB, 10, 0, 0, 0, 0);
-    ScriptGiveBoxMon(SPECIES_WINGULL, 10, 0, 0, 0, 0);
+    ScriptGiveBoxMon(SPECIES_SPHEAL, 10, 0, 0, 0, 0);
+    ScriptGiveBoxMon(SPECIES_STARYU, 10, 0, 0, 0, 0);
+    ScriptGiveBoxMon(SPECIES_MAGNEMITE, 10, 0, 0, 0, 0);
+    ScriptGiveBoxMon(SPECIES_FEEBAS, 10, 0, 0, 0, 0);
+    ScriptGiveBoxMon(SPECIES_MARILL, 10, 0, 0, 0, 0);
     ScriptGiveBoxMon(SPECIES_HOUNDOUR, 10, 0, 0, 0, 0);
-    ScriptGiveBoxMon(SPECIES_SABLEYE, 10, 0, 0, 0, 0);
-    ScriptGiveBoxMon(SPECIES_DUSKULL, 10, 0, 0, 0, 0);
-    ScriptGiveBoxMon(SPECIES_VULPIX, 10, 0, 0, 0, 0);
-    ScriptGiveBoxMon(SPECIES_PSYDUCK, 10, 0, 0, 0, 0);
-    ScriptGiveBoxMon(SPECIES_CUBONE, 10, 0, 0, 0, 0);
-    ScriptGiveBoxMon(SPECIES_SANDSLASH, 10, 0, 0, 0, 0);
-    ScriptGiveBoxMon(SPECIES_CATERPIE, 7, 0, 0, 0, 0);
-    ScriptGiveBoxMon(SPECIES_CASTFORM, 10, 0, 0, 0, 0);
-    ScriptGiveBoxMon(SPECIES_SHEDINJA, 10, 0, 0, 0, 0);
-    ScriptGiveBoxMon(SPECIES_ZIGZAGOON, 10, 0, 0, 0, 0);
-    ScriptGiveBoxMon(SPECIES_SURSKIT, 10, 0, 0, 0, 0);
-    ScriptGiveBoxMon(SPECIES_NATU, 10, 0, 0, 0, 0);
+    ScriptGiveBoxMon(SPECIES_SLOWPOKE, 10, 0, 0, 0, 0);
+    ScriptGiveBoxMon(SPECIES_HITMONTOP, 10, 0, 0, 0, 0);
+    ScriptGiveBoxMon(SPECIES_ZUBAT, 7, 0, 0, 0, 0);
+    ScriptGiveBoxMon(SPECIES_GLIGAR, 10, 0, 0, 0, 0);
+    ScriptGiveBoxMon(SPECIES_SNUBBULL, 10, 0, 0, 0, 0);
 }
 
 static void CB2_StartFirstBattle(void)
