@@ -47,7 +47,7 @@
 #include "constants/trainers.h"
 #include "constants/trainer_hill.h"
 #include "done_button.h"
-#include "draft_setup.h"
+#include "species.h"
 
 enum
 {
@@ -1031,31 +1031,28 @@ static void GiveDraftMons() {
 
     // free(data);
 
-    ScriptGiveMon(SPECIES_TREECKO, 10, 0, 0, 0, 0);
-    ScriptGiveBoxMon(SPECIES_LOTAD, 10, 0, 0, 0, 0);
-    ScriptGiveBoxMon(SPECIES_TAILLOW, 10, 0, 0, 0, 0);
-    ScriptGiveBoxMon(SPECIES_MR_MIME, 10, 0, 0, 0, 0);
-    ScriptGiveBoxMon(SPECIES_LAPRAS, 10, 0, 0, 0, 0);
-    ScriptGiveBoxMon(SPECIES_MAREEP, 10, 0, 0, 0, 0);
-    ScriptGiveBoxMon(SPECIES_MAKUHITA, 10, 0, 0, 0, 0);
-    ScriptGiveBoxMon(SPECIES_PINSIR, 10, 0, 0, 0, 0);
-    ScriptGiveBoxMon(SPECIES_TRAPINCH, 10, 0, 0, 0, 0);
-    ScriptGiveBoxMon(SPECIES_SWABLU, 10, 0, 0, 0, 0);
-    ScriptGiveBoxMon(SPECIES_VOLTORB, 10, 0, 0, 0, 0);
-    ScriptGiveBoxMon(SPECIES_WINGULL, 10, 0, 0, 0, 0);
-    ScriptGiveBoxMon(SPECIES_HOUNDOUR, 10, 0, 0, 0, 0);
-    ScriptGiveBoxMon(SPECIES_SABLEYE, 10, 0, 0, 0, 0);
-    ScriptGiveBoxMon(SPECIES_DUSKULL, 10, 0, 0, 0, 0);
-    ScriptGiveBoxMon(SPECIES_VULPIX, 10, 0, 0, 0, 0);
-    ScriptGiveBoxMon(SPECIES_PSYDUCK, 10, 0, 0, 0, 0);
-    ScriptGiveBoxMon(SPECIES_CUBONE, 10, 0, 0, 0, 0);
-    ScriptGiveBoxMon(SPECIES_SANDSLASH, 10, 0, 0, 0, 0);
-    ScriptGiveBoxMon(SPECIES_CATERPIE, 7, 0, 0, 0, 0);
-    ScriptGiveBoxMon(SPECIES_CASTFORM, 10, 0, 0, 0, 0);
-    ScriptGiveBoxMon(SPECIES_SHEDINJA, 10, 0, 0, 0, 0);
+    ScriptGiveMon(SPECIES_TORCHIC, 10, 0, 0, 0, 0);
+    ScriptGiveBoxMon(SPECIES_MAGIKARP, 10, 0, 0, 0, 0);
+    ScriptGiveBoxMon(SPECIES_GASTLY, 10, 0, 0, 0, 0);
+    ScriptGiveBoxMon(SPECIES_TENTACOOL, 10, 0, 0, 0, 0);
+    ScriptGiveBoxMon(SPECIES_RALTS, 10, 0, 0, 0, 0);
+    ScriptGiveBoxMon(SPECIES_ABSOL, 10, 0, 0, 0, 0);
+    ScriptGiveBoxMon(SPECIES_DIGLETT, 10, 0, 0, 0, 0);
+    ScriptGiveBoxMon(SPECIES_HITMONCHAN, 10, 0, 0, 0, 0);
+    ScriptGiveBoxMon(SPECIES_NIDORAN_F, 10, 0, 0, 0, 0);
+    ScriptGiveBoxMon(SPECIES_WEEDLE, 7, 0, 0, 0, 0);
     ScriptGiveBoxMon(SPECIES_ZIGZAGOON, 10, 0, 0, 0, 0);
-    ScriptGiveBoxMon(SPECIES_SURSKIT, 10, 0, 0, 0, 0);
-    ScriptGiveBoxMon(SPECIES_NATU, 10, 0, 0, 0, 0);
+    ScriptGiveBoxMon(SPECIES_SLAKOTH, 10, 0, 0, 0, 0);
+    ScriptGiveBoxMon(SPECIES_ODDISH, 10, 0, 0, 0, 0);
+    ScriptGiveBoxMon(SPECIES_SKARMORY, 10, 0, 0, 0, 0);
+    ScriptGiveBoxMon(SPECIES_WAILMER, 10, 0, 0, 0, 0);
+    ScriptGiveBoxMon(SPECIES_CHANSEY, 10, 0, 0, 0, 0);
+    ScriptGiveBoxMon(SPECIES_ELECTRIKE, 10, 0, 0, 0, 0);
+    ScriptGiveBoxMon(SPECIES_JYNX, 10, 0, 0, 0, 0);
+    ScriptGiveBoxMon(SPECIES_FORRETRESS, 10, 0, 0, 0, 0);
+    ScriptGiveBoxMon(SPECIES_WHISCASH, 10, 0, 0, 0, 0);
+    ScriptGiveBoxMon(SPECIES_TORKOAL, 10, 0, 0, 0, 0);
+    ScriptGiveBoxMon(SPECIES_WOBBUFFET, 10, 0, 0, 0, 0);
 }
 
 static void CB2_StartFirstBattle(void)
