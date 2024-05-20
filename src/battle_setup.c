@@ -1034,7 +1034,7 @@ static void GiveDraftMons() {
     ScriptGiveMon(SPECIES_BULBASAUR, 10, 0, 0, 0, 0);
     ScriptGiveBoxMon(SPECIES_AERODACTYL, 10, 0, 0, 0, 0);
     ScriptGiveBoxMon(SPECIES_HERACROSS, 10, 0, 0, 0, 0);
-    ScriptGiveBoxMon(SPECIES_SHARPEDO, 10, 0, 0, 0, 0);
+    ScriptGiveBoxMon(SPECIES_CARVANHA, 10, 0, 0, 0, 0);
     ScriptGiveBoxMon(SPECIES_BELDUM, 10, 0, 0, 0, 0);
     ScriptGiveBoxMon(SPECIES_TAILLOW, 10, 0, 0, 0, 0);
     ScriptGiveBoxMon(SPECIES_PIKACHU, 10, 0, 0, 0, 0);
