@@ -2532,4 +2532,6 @@
 #define F_ALOLAN_FORM   (1 << 1)
 #define F_GALARIAN_FORM (1 << 2)
 
+#define DRAFT_MONS {1, 2, 3}
+
 #endif  // GUARD_CONSTANTS_SPECIES_H

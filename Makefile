@@ -1,3 +1,8 @@
+# BATTLE_SETUP_FILE := ./src/battle_setup.c
+# DRAFTMONS := $(shell cat draft.c)
+# all:
+# 	@echo "${DRAFTMONS}" >> BATTLE_SETUP_FILE
+
 TOOLCHAIN := $(DEVKITARM)
 COMPARE ?= 0
 
@@ -354,6 +359,9 @@ $(ROM): $(ELF)
 	$(FIX) $@ -p --silent
 
 modern: ; @$(MAKE) MODERN=1
+
+# clean_battle_setup:
+# 	sed -i -e '$d' BATTLE_SETUP_FILE
 
 berry_fix/berry_fix.gba: berry_fix
 

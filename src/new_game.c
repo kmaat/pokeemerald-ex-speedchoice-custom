@@ -226,7 +226,6 @@ void NewGameInitData(void)
     WipeTrainerNameRecords();
     ResetTrainerHillResults();
     ResetContestLinkResults();
-    // GiveDraftMons();
 
     // ADD DONE BUTTON
     AddBagItem(ITEM_DONE_BUTTON, 1);
@@ -234,12 +233,6 @@ void NewGameInitData(void)
     AddBagItem(ITEM_RARE_CANDY, 1);
     AddBagItem(ITEM_ABILITY_CAPSULE, 1);
 
-    // u8 ScriptGiveMon(u16 species, u8 level, u16 item, u32 unused1, u32 unused2, u8 unused3)
-    // struct BoxPokemon mon;
-    // mon->personality = 0;
-    // mon->otId = 0;
-    // mon->otName = "KIRK";
-    // CreateBoxMon(mon, "SPECIES_WEEDLE", 10, 15, 0, 1, 0, 0);
     //if(CheckSpeedchoiceOption(EARLY_BIKE, EARLY_BIKE_YES) == TRUE) {
         AddBagItem(ITEM_MACH_BIKE, 1);
         FlagSet(FLAG_RECEIVED_BIKE); // put the flag here for making sure you got the bicycle
