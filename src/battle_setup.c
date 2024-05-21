@@ -47,7 +47,6 @@
 #include "constants/trainers.h"
 #include "constants/trainer_hill.h"
 #include "done_button.h"
-#include "species.h"
 
 enum
 {
